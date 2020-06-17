@@ -3,50 +3,7 @@
 #endif
 #define _multi_jump_included
 
-#if AMXX_VERSION_NUM >= 175
-	#pragma reqlib multi_jump
-	#if !defined AMXMODX_NOAUTOLOAD
-		#pragma loadlib multi_jump
-	#endif
-#else
-	#pragma library multi_jump
-#endif
-
-/**
- * Returns the number of jumps that a player has.
- *
- * @param id		Client index
- *
- * @return			Number of jumps that a player has
- */
-native mj_get_user_jumps(id);
-
-/**
- * Gives to a player a specified number of jumps.
- *
- * @param id		Client index
- * @param amount	Amount of jumps to give
- *
- * @return			Number of given jumps on success
- */
-native mj_give_user_jumps(id, amount);
-
-/**
- * Sets to a player a specified number of jumps.
- *
- * @param id		Client index
- * @param amount	Amount of jumps to set
- *
- * @return			Number of set jumps on success
- */
-native mj_set_user_jumps(id, amount);
-
-/**
- * Removes a specified number of jumps from a player.
- *
- * @return			Number of removed jumps on success, false otherwise
- */
-native mj_remove_user_jumps();
+#pragma reqlib multi_jump
 
 /**
  * Called before doing a multi jump.
@@ -62,3 +19,45 @@ forward MJ_Jump_Pre(id);
  * @noreturn
  */
 forward MJ_Jump_Post(id);
+
+/**
+ * Returns the number of jumps that a player has.
+ *
+ * @param id        Client index
+ *
+ * @return          Number of jumps that a player has
+ * @error           If the index is not within the range of 1 to MaxClients,
+ *                  an error will be thrown.
+ */
+native mj_get_user_jumps(const id);
+
+/**
+ * Gives to a player a specified number of jumps.
+ *
+ * @param id        Client index
+ * @param amount    Amount of jumps to give
+ *
+ * @return          Number of given jumps on success
+ * @error           If the index is not within the range of 1 to MaxClients,
+ *                  or an invalid number of jumps is set, an error will be thrown.
+ */
+native mj_give_user_jumps(const id, amount);
+
+/**
+ * Sets to a player a specified number of jumps.
+ *
+ * @param id        Client index
+ * @param amount    Amount of jumps to set
+ *
+ * @return          Number of set jumps on success
+ * @error           If the index is not within the range of 1 to MaxClients,
+ *                  or an invalid number of jumps is set, an error will be thrown.
+ */
+native mj_set_user_jumps(const id, amount);
+
+/**
+ * Removes a specified number of jumps from a player.
+ *
+ * @return			Number of removed jumps on success, false otherwise
+ */
+native mj_remove_user_jumps();
