@@ -1,2 +1,0 @@
-# Multi-Jump
-Multi Jump
