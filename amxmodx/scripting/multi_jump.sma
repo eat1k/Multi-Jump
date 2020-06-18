@@ -8,7 +8,7 @@
 
 #pragma semicolon 1
 
-new const PLUGIN_VERSION[] = "2.3.1";
+new const PLUGIN_VERSION[] = "2.3.2";
 
 #define CHECK_NATIVE_PLAYER(%0) \
     if (!(1 <= %0 <= MaxClients)) \
