@@ -58,6 +58,11 @@ native mj_set_user_jumps(const id, amount);
 /**
  * Removes a specified number of jumps from a player.
  *
- * @return			Number of removed jumps on success, false otherwise
+ * @param id        Client index
+ * @param amount    Amount of jumps to set
+ *
+ * @return			Number of removed jumps on success, 0 otherwise
+ * @error           If the index is not within the range of 1 to MaxClients,
+ *                  or an invalid number of jumps is set, an error will be thrown.
  */
-native mj_remove_user_jumps();
+native mj_remove_user_jumps(const id, amount);
