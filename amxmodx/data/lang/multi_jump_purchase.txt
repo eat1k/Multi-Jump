@@ -1,0 +1,32 @@
+[en]
+MJ_PURCHASE_SUCCESS = ^4* ^1You've successfully done the purchase. Your jumps: ^4%d
+MJ_PURCHASE_ERROR_ACCESS = ^3* ^1You have no access to buy additional jumps
+MJ_PURCHASE_ERROR_DEAD = ^3* ^1You're dead and can't do the purchase
+MJ_PURCHASE_ERROR_NEED_MONEY = ^3* ^1You need ^4%d$ ^1to do the purchase
+
+MJ_PURCHASE_CVAR_ACCESS = Access to the command^nIf it's empty, everyone can purchase
+MJ_PURCHASE_CVAR_PRICE = Price for additional jumps
+MJ_PURCHASE_CVAR_PRICE_STEAM = Price for additional jumps for steam players
+MJ_PURCHASE_CVAR_ADDITIONAL_JUMPS = How many additional jumps will the player receive after the purchase
+
+[es]
+MJ_PURCHASE_SUCCESS = ^4* ^1Has comprado saltos adicionales. Tus saltos: ^4%d
+MJ_PURCHASE_ERROR_ACCESS = ^3* ^1No tienes acceso para comprar saltos adicionales
+MJ_PURCHASE_ERROR_DEAD = ^3* ^1Estás muerto y no puedes comprar saltos
+MJ_PURCHASE_ERROR_NEED_MONEY = ^3* ^1Necesitas ^4%d$ ^1más para comprar saltos adicionales
+
+MJ_PURCHASE_CVAR_ACCESS = Acceso al comando^nSi no se especifica, todo el mundo puede comprar
+MJ_PURCHASE_CVAR_PRICE = Precio para los saltos adicionales
+MJ_PURCHASE_CVAR_PRICE_STEAM = Precio para los saltos adicionales para jugadores Steam
+MJ_PURCHASE_CVAR_ADDITIONAL_JUMPS = Cuántos saltos adicionales recibirá el jugador tras la compra
+
+[ru]
+MJ_PURCHASE_SUCCESS = ^4* ^1Вы успешно совершили покупку. Количество ваших прыжков: ^4%d
+MJ_PURCHASE_ERROR_ACCESS = ^3* ^1У Вас нет доступа для покупки дополнительных прыжков
+MJ_PURCHASE_ERROR_DEAD = ^3* ^1Вы мертвы и не можете совершить покупку
+MJ_PURCHASE_ERROR_NEED_MONEY = ^3* ^1Вам не хватает ^4%d$
+
+MJ_PURCHASE_CVAR_ACCESS = Доступ к покупке^nЕсли не указано, то все могут покупать
+MJ_PURCHASE_CVAR_PRICE = Цена покупки дополнительных прыжков
+MJ_PURCHASE_CVAR_PRICE_STEAM = Цена покупки дополнительных прыжков для Steam игроков
+MJ_PURCHASE_CVAR_ADDITIONAL_JUMPS = Сколько прыжков будет получено после покупки
