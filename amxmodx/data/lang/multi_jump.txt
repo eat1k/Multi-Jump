@@ -1,32 +1,20 @@
 [en]
-MJ_CVAR_AUTO_DOUBLE_JUMP = Automatic double jump, that is, after the jump you jump again (0 / 1)
+MJ_CVAR_ENABLED = Plugin work^n0 - disabled^n1 - enabled
+MJ_CVAR_AUTO_DOUBLE_JUMP = Automatic double jump, that is, after the jump you jump again^n0 - disabled^n1 - enabled
 MJ_CVAR_AUTO_DOUBLE_JUMP_VELOCITY = Velocity of the double jump (if mj_auto_double_jump = 1)
 MJ_CVAR_ADDITIONAL_JUMPS = Amount of additional jumps
-MJ_CVAR_RESET_JUMPS_SPAWN = Reset jumps on player spawn? (0 / 1)
-MJ_CVAR_TRAIL = a trail after a multi jump (0 / 1)
-MJ_CVAR_TRAIL_EFFECT = 0 - random trail color; 1 - color of team of the player
-MJ_CVAR_TRAIL_LIFE = Life time of the trail
-MJ_CVAR_TRAIL_SIZE = Size of the trail
-MJ_CVAR_TRAIL_BRIGHTNESS = Brightness of the trail
+MJ_CVAR_RESET_JUMPS_SPAWN = Reset jumps on player spawn?^n0 - disabled^n1 - enabled
 
 [es]
-MJ_CVAR_AUTO_DOUBLE_JUMP = Salto automático, es decir, al saltar se dará otro salto (0 / 1)
-MJ_CVAR_AUTO_DOUBLE_JUMP_VELOCITY = Velocidad del salto doble (если mj_auto_double_jump = 1)
+MJ_CVAR_ENABLED = Funcionamiento del plugin^n0 - deshabilitado^n1 - habilitado
+MJ_CVAR_AUTO_DOUBLE_JUMP = Salto automático, es decir, al saltar se dará otro salto^n0 - deshabilitado^n1 - habilitado
+MJ_CVAR_AUTO_DOUBLE_JUMP_VELOCITY = Velocidad del salto doble (si mj_auto_double_jump = 1)
 MJ_CVAR_ADDITIONAL_JUMPS = Cantidad de saltos adicionales
-MJ_CVAR_RESET_JUMPS_SPAWN = ¿Anular saltos al spawnearse? (0 / 1)
-MJ_CVAR_TRAIL = línea detrás del jugador despues del salto (0 / 1)
-MJ_CVAR_TRAIL_EFFECT = 0 - color de la línea aleatorio; 1 - color del equipo de jugador
-MJ_CVAR_TRAIL_LIFE = Vida de la línea
-MJ_CVAR_TRAIL_SIZE = Tamaño de la línea
-MJ_CVAR_TRAIL_BRIGHTNESS = Brillo de la línea
+MJ_CVAR_RESET_JUMPS_SPAWN = ¿Anular saltos al spawnearse?^n0 - deshabilitado^n1 - habilitado
 
 [ru]
+MJ_CVAR_ENABLED = Работа плагина^n0 - выкл.^n1 - вкл.
 MJ_CVAR_AUTO_DOUBLE_JUMP = Автоматический двойной прыжок, то есть, вы автоматически подпрыгнете после прыжка (0 / 1)
 MJ_CVAR_AUTO_DOUBLE_JUMP_VELOCITY = Скорость двойного прыжка (если mj_auto_double_jump = 1)
 MJ_CVAR_ADDITIONAL_JUMPS = Количество дополнительных прыжков
-MJ_CVAR_RESET_JUMPS_SPAWN = Сбрасывать прыжки при спавне? (0 / 1)
-MJ_CVAR_TRAIL = линия за игроком после прыжка (0 / 1)
-MJ_CVAR_TRAIL_EFFECT = 0 - случайный цвет линии; 1 - цвет команды игрока
-MJ_CVAR_TRAIL_LIFE = Жизнь линии
-MJ_CVAR_TRAIL_SIZE = Размер линии
-MJ_CVAR_TRAIL_BRIGHTNESS = Яркость линии
+MJ_CVAR_RESET_JUMPS_SPAWN = Сбрасывать прыжки при спавне?^n0 - выкл.^n1 - Вкл.

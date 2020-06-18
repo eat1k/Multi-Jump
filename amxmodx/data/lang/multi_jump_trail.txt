@@ -1,0 +1,20 @@
+[en]
+MJ_CVAR_TRAIL = Plugin work^n0 - disabled^n1 - enabled
+MJ_CVAR_TRAIL_EFFECT = Trail color.^n0 - random^n1 - team color
+MJ_CVAR_TRAIL_LIFE = Life time of the trail
+MJ_CVAR_TRAIL_SIZE = Size of the trail
+MJ_CVAR_TRAIL_BRIGHTNESS = Brightness of the trail
+
+[es]
+MJ_CVAR_TRAIL = Funcionamiento del plugin^n0 - deshabilitado^n1 - habilitado
+MJ_CVAR_TRAIL_EFFECT = Color de la línea.^n0 - aleatorio^n1 - color del equipo de jugador
+MJ_CVAR_TRAIL_LIFE = Tiempo durante el que se verá la línea
+MJ_CVAR_TRAIL_SIZE = Tamaño de la línea
+MJ_CVAR_TRAIL_BRIGHTNESS = Brillo de la línea
+
+[ru]
+MJ_CVAR_TRAIL = Работа плагина^n0 - выкл.^n1 - вкл.
+MJ_CVAR_TRAIL_EFFECT = Цвет линии.^n0 - случайный^n1 - цвет команды игрока
+MJ_CVAR_TRAIL_LIFE = Жизнь линии
+MJ_CVAR_TRAIL_SIZE = Размер линии
+MJ_CVAR_TRAIL_BRIGHTNESS = Яркость линии

@@ -11,14 +11,14 @@
  * @return			PLUGIN_CONTINUE to let the client do the multi jump
  *					PLUGIN_HANDLED or higher to not do the multi jump
  */
-forward MJ_Jump_Pre(id);
+forward MJ_Jump_Pre(const id);
 
 /**
  * Called after doing a multi jump.
  *
  * @noreturn
  */
-forward MJ_Jump_Post(id);
+forward MJ_Jump_Post(const id);
 
 /**
  * Returns the number of jumps that a player has.
@@ -61,7 +61,7 @@ native mj_set_user_jumps(const id, amount);
  * @param id        Client index
  * @param amount    Amount of jumps to set
  *
- * @return			Number of removed jumps on success, 0 otherwise
+ * @return          Number of removed jumps on success, 0 otherwise
  * @error           If the index is not within the range of 1 to MaxClients,
  *                  or an invalid number of jumps is set, an error will be thrown.
  */
