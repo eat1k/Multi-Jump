@@ -2,7 +2,7 @@
 #include <multi_jump>
 
 public stock const PluginName[] = "Multi Jump: Default Access";
-public stock const PluginVersion[] = "1.0.0";
+public stock const PluginVersion[] = "1.0.1";
 public stock const PluginAuthor[] = "twisterniq";
 public stock const PluginURL[] = "https://github.com/twisterniq/amxx-multi-jump";
 public stock const PluginDescription[] = "Blocks using multi jumps if player has not specified access.";
@@ -13,6 +13,14 @@ new g_iAccess = ADMIN_LEVEL_H;
 
 public plugin_init()
 {
+#if AMXX_VERSION_NUM == 190
+	register_plugin(
+		.plugin_name = PluginName,
+		.version = PluginVersion,
+		.author = PluginAuthor
+	);
+#endif
+
 	register_dictionary("multi_jump_default_access.txt");
 
 	new pCvar = create_cvar(

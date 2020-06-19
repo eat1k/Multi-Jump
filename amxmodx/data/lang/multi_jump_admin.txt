@@ -25,10 +25,10 @@ MJ_ADMIN_MENU_NEXT = Next
 MJ_ADMIN_MENU_BACK = Back
 MJ_ADMIN_MENU_EXIT = Exit
 
-MJ_ADMIN_CVAR_ACCESS = Admin access to use multi jumps. If it's empty so everyone can use
-MJ_ADMIN_CVAR_CONSOLE_ACCESS = Access to use the console command to give additional jumps to a player/team/everyone
-MJ_ADMIN_CVAR_MESSAGES = Show messages after giving multi jumps. 0 - disabled; 1 - show only to who used the command and who has received multi jumps; 2 - show to everyone
-MJ_ADMIN_CVAR_LOGS = Logging when admins give additional jumps to a player/team/everyone. 0 - disabled; 1 - enabled
+MJ_ADMIN_CVAR_MENU_ACCESS = Access to use the menu command
+MJ_ADMIN_CVAR_CONSOLE_ACCESS = Access to use the console command
+MJ_ADMIN_CVAR_MESSAGES = Show messages after giving multi jumps^n0 - disabled^n1 - only to who used the command and the target^n2 - to everyone
+MJ_ADMIN_CVAR_LOGS = Logging when admins give additional jumps^n 0 - disabled^n1 - enabled
 
 [es]
 MJ_ADMIN_ERROR_USAGE = Uso: %s <player/T/CT/ALL> <num> (<tiempo>)
@@ -57,10 +57,10 @@ MJ_ADMIN_MENU_NEXT = Siguiente
 MJ_ADMIN_MENU_BACK = Atrás
 MJ_ADMIN_MENU_EXIT = Salir
 
-MJ_ADMIN_CVAR_ACCESS = Acceso para usar saltos adicionales. Si está vacío entonces todos pueden
-MJ_ADMIN_CVAR_CONSOLE_ACCESS = Acceso para dar saltos a través del comandoa a un jugador/equipo/todos
-MJ_ADMIN_CVAR_MESSAGES = Mostrar mensajes al dar saltos. 0 - no; 1 - solo a quien dio y a quien le dieron; 2 - a todos
-MJ_ADMIN_CVAR_LOGS = Loguear cuando dan saltos (0 / 1)
+MJ_ADMIN_CVAR_MENU_ACCESS = Acceso para poder abrir el menu
+MJ_ADMIN_CVAR_CONSOLE_ACCESS = Acceso para usar el comando en la consola
+MJ_ADMIN_CVAR_MESSAGES = Mostrar mensajes al dar saltos.^n0 - deshabilitado^n1 - solo a quien dio y a quien le dieron^n2 - a todos
+MJ_ADMIN_CVAR_LOGS = Loguear cuando dan saltos^n0 - deshabilitado^n1 - habilitado
 
 [ru]
 MJ_ADMIN_ERROR_USAGE = Использование: %s <player/T/CT/ALL> <количество> (<время>)
@@ -88,10 +88,10 @@ MJ_ADMIN_MENU_NEXT = Далее
 MJ_ADMIN_MENU_BACK = Назад
 MJ_ADMIN_MENU_EXIT = Выход
 
-MJ_ADMIN_CVAR_ACCESS = Доступ для использования мульти прыжков. Если пусто то все могут использоваться
-MJ_ADMIN_CVAR_CONSOLE_ACCESS = Доступ для выдачи прыжков через команду игроку/команде/всем
-MJ_ADMIN_CVAR_MESSAGES = Показ сообщений после выдачи прыжков. 0 - нет; 1 - только тому кто выдал и кому выдали; 2 - всем
-MJ_ADMIN_CVAR_LOGS = Логирование выдачи прыжков (0 / 1)
+MJ_ADMIN_CVAR_MENU_ACCESS = Доступ для открытия меню
+MJ_ADMIN_CVAR_CONSOLE_ACCESS = Доступ для выдачи прыжков через консольную команду
+MJ_ADMIN_CVAR_MESSAGES = Показ сообщений после выдачи прыжков.^n0 - выкл.^n1 - только тому кто выдал и кому выдали^n2 - всем
+MJ_ADMIN_CVAR_LOGS = Логирование выдачи прыжков^n0 - выкл.^n1 - вкл.
 
 [tr]
 MJ_ADMIN_ERROR_USAGE = Usage: %s <player/T/CT/ALL> <num> (<time>)
@@ -111,3 +111,18 @@ MJ_ADMIN_ERROR_DEAD = * Oyuncu olu
 MJ_ADMIN_ERROR_TEAM = * Oyuncu yanlis takimda
 MJ_ADMIN_GIVEN_ONE_LOG = "%n" (<%s> <%s>) -----> +%d -----> "%n" (<%s> <%s>)
 MJ_ADMIN_GIVEN_TEAM_LOG = "%n" (<%s> <%s>) -----> +%d -----> %s
+
+MJ_ADMIN_MENU_TITLE = Select a player
+MJ_ADMIN_MENU_TIME = Time: \y%d \wsec.
+MJ_ADMIN_MENU_TIME_NOT = Time: \rnot
+MJ_ADMIN_MENU_JUMPS = Jumps: \y%d
+MJ_ADMIN_ERROR_MENU_ZERO = ^3* ^1You've not entered anything, try again
+MJ_ADMIN_ERROR_MENU_DIGIT = ^3* ^1It's not a number, try again
+MJ_ADMIN_MENU_NEXT = Next
+MJ_ADMIN_MENU_BACK = Back
+MJ_ADMIN_MENU_EXIT = Exit
+
+MJ_ADMIN_CVAR_MENU_ACCESS = Access to use the menu command
+MJ_ADMIN_CVAR_CONSOLE_ACCESS = Access to use the console command
+MJ_ADMIN_CVAR_MESSAGES = Show messages after giving multi jumps^n0 - disabled^n1 - only to who used the command and the target^n2 - to everyone
+MJ_ADMIN_CVAR_LOGS = Logging when admins give additional jumps^n 0 - disabled^n1 - enabled
