@@ -25,7 +25,6 @@ new g_szMenuCmd[]		= "amx_mjmenu";
 #define GetCvarDesc(%0) fmt("%l", %0)
 
 new g_iAccess = ADMIN_RCON;
-new g_iAccessJump = ADMIN_LEVEL_H;
 new g_iMessages;
 new g_iLogs;
 
@@ -75,18 +74,6 @@ public plugin_init()
 public client_putinserver(id)
 {
 	g_iJumpsSelected[id] = 1;
-}
-
-// Players with access doing a multi jump
-public MJ_Jump_Pre(id)
-{
-	static iFlags;
-	iFlags = get_user_flags(id);
-
-	if(g_iAccessJump > 0 && !(iFlags & g_iAccessJump))
-		return PLUGIN_HANDLED;
-
-	return PLUGIN_CONTINUE;
 }
 
 public func_MenuCmdGive(id)

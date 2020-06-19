@@ -1,0 +1,8 @@
+[en]
+MJ_DEFAULT_ACCESS_CVAR = Acceso con el que el jugador por defecto podrá usar saltos adicionales
+
+[es]
+MJ_DEFAULT_ACCESS_CVAR = Access at which the player will be able to use multi jumps by default
+
+[ru]
+MJ_DEFAULT_ACCESS_CVAR = Доступ при котором игрок по стандарту сможет использовать мульти прыжки
