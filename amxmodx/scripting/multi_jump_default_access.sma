@@ -1,3 +1,7 @@
+/*
+ * Official resource topic: https://dev-cs.ru/resources/1014/
+ */ 
+
 #include <amxmodx>
 #include <multi_jump>
 
