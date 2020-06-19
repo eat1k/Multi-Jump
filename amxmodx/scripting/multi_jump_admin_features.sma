@@ -10,12 +10,12 @@
 #pragma semicolon 1
 
 public stock const PluginName[] = "Multi Jump: Admin Features";
-public stock const PluginVersion[] = "2.0.0";
+public stock const PluginVersion[] = "2.0.1";
 public stock const PluginAuthor[] = "twisterniq";
 public stock const PluginURL[] = "https://github.com/twisterniq/amxx-multi-jump";
 public stock const PluginDescription[] = "Adds such features as giving multi jumps via console command and via menu. Allows to set jumps for X seconds.";
 
-new const CONFIG_NAME[] = "multi_jump_admin";
+new const CONFIG_NAME[] = "multi_jump_admin_features";
 
 new g_szConsoleCmd[] = "amx_mjgive";
 new g_szMenuCmd[] = "amx_mjmenu";
@@ -48,7 +48,7 @@ public plugin_init()
 	);
 #endif
 
-	register_dictionary("multi_jump_admin.txt");
+	register_dictionary("multi_jump_admin_features.txt");
 
 	register_clcmd(g_szMenuCmd, "@func_GiveByMenu");
 	register_clcmd(g_szConsoleCmd, "@func_GiveByConsole");
